@@ -12,22 +12,27 @@ configure terminal
 
 # Create VLAN interfaces for Inter-VLAN routing
 interface vlan 10
+name zamestnanci
 ip address 192.168.10.1 255.255.255.0
 no shutdown
 
 interface vlan 20
+name hostia
 ip address 192.168.20.1 255.255.255.0
 no shutdown
 
 interface vlan 30
+name managment
 ip address 192.168.30.1 255.255.255.0
 no shutdown
 
 interface vlan 40
+name kamery
 ip address 192.168.40.1 255.255.255.0
 no shutdown
 
 interface vlan 50
+name servery
 ip address 192.168.50.1 255.255.255.0
 no shutdown
 
