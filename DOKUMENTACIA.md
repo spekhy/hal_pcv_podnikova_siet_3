@@ -10,7 +10,6 @@ vytvorenie vlanov
 enable
 configure terminal
 
-# Create VLAN interfaces for Inter-VLAN routing
 interface vlan 10
 name zamestnanci
 ip address 192.168.10.1 255.255.255.0
