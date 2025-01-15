@@ -21,6 +21,13 @@ Výsledkom bude sieť nižšie.
 
 ### Použité Elementy
 
+- 1x **Server-PT**.
+- 1x **Router-PT**.
+- 2x **WRT300N**.
+- 5x **Switch-PT**.
+- 5x **PC-PT / Laptop-PT**.
+- 2x **SmartLED**.
+
 ### Vytvorenie VLAN
 
 Každá VLAN bola nakonfigurovaná tak, aby poskytovala izoláciu a špecifické IP adresné rozsahy. Tieto VLAN sú základom pre oddelenie siete a efektívne prideľovanie zdrojov.
