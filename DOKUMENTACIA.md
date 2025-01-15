@@ -90,6 +90,10 @@ interface FastEthernet1/0
 ip access-group 102 in
 ```
 
+Potom môžeme exitnúť config commandom exit, a zobraziť si aktuálné ACL listy pomocou show access-lists
+
+![image](https://github.com/spekhy/hal_pcv_podnikova_siet_3/blob/main/access-lists.png?raw=true)
+
 #### Konfigurácia DHCP pre siete
 
 Router vo VLAN 50 je nakonfigurovaný ako DHCP server, čím sa zabezpečuje dynamické prideľovanie IP adries pre všetky zariadenia v sieti.
