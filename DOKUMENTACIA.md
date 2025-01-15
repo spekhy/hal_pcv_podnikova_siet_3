@@ -26,7 +26,7 @@ Výsledkom bude sieť nižšie.
 - 2x **WRT300N**.
 - 5x **Switch-PT**.
 - 5x **PC-PT / Laptop-PT**.
-- 2x **SmartLED**.
+- 2x **SmartLED / iné IoT zariadenie**.
 
 ### Vytvorenie VLAN
 
