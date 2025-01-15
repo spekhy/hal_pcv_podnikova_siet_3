@@ -137,7 +137,7 @@ Potom môžeme exitnúť config commandom exit, a zobraziť si aktuálné ACL li
 - **Efektívnosť:** Segmentácia znižuje prenosové zaťaženie, čo vedie k vyššej rýchlosti prenosu a lepšiemu výkonu celej siete.
 - **Jednoduchá správa:** Centrálne riadené VLAN a ACL výrazne znižujú čas potrebný na správu a zlepšujú prehľadnosť.
 
-### Nevýhody a možné zlepšenia
+### Nevýhody a zlepšenia
 - **Obmedzená flexibilita hostí:** Hostia nemajú prístup ani k lokálnym tlačiarňam či projektorom, čo môže byť prekážkou pre niektoré aplikácie.
 - **Závislosť na ACL:** Rozsiahle ACL môžu byť náročné na údržbu a aktualizáciu, čo zvyšuje riziko chyby.
 - **Chýbajúca redundancia:** Návrh neobsahuje žiadne záložné linky ani ochranu proti výpadkom, čo môže ohroziť dostupnosť siete v prípade zlyhania.
