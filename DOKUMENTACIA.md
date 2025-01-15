@@ -132,10 +132,9 @@ Router vo VLAN 50 je nakonfigurovaný ako DHCP server, čím sa zabezpečuje dyn
 - **Chýbajúca redundancia:** Návrh neobsahuje žiadne záložné linky ani ochranu proti výpadkom, čo môže ohroziť dostupnosť siete v prípade zlyhania.
 
 ### Návrhy na zlepšenie
+
+Navrhovaná podniková sieť ponúka pevný základ pre bezpečnú a efektívnu prevádzku. Zároveň však otvára priestor na ďalšie zlepšenia, ktoré môžu zvýšiť jej funkčnosť a spoľahlivosť v dlhodobom horizonte.
+
 - **Monitoring:** Implementácia nástroja na monitorovanie siete na detekciu a prevenciu hrozieb.
 - **Redundancia:** Zavedenie záložných liniek a záložných DHCP serverov pre zvýšenie spoľahlivosti.
 - **Vylepšenie pre hostí:** Poskytnutie prístupu k vybraným lokálnym zdrojom, ako sú tlačiarne alebo prezentačné zariadenia, bez ohrozenia bezpečnosti.
-
----
-
-Navrhovaná podniková sieť ponúka pevný základ pre bezpečnú a efektívnu prevádzku. Zároveň však otvára priestor na ďalšie zlepšenia, ktoré môžu zvýšiť jej funkčnosť a spoľahlivosť v dlhodobom horizonte.
