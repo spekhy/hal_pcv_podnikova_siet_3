@@ -120,7 +120,7 @@ Potom môžeme exitnúť config commandom exit, a zobraziť si aktuálné ACL li
 
 ### Prehľad VLAN
 
-| VLAN    | Názov         | IP Rozsah       | Použiteľné adresy           | Mask          |
+| VLAN    | Názov         | IP Rozsah       | Použiteľné adresy           | Maska         |
 |---------|---------------|-----------------|-----------------------------|---------------|
 | 10      | Zamestnanci   | 192.168.10.0/24 | 192.168.10.2-192.168.10.254 | 255.255.255.0 |
 | 20      | Hostia        | 192.168.20.0/24 | 192.168.20.2-192.168.20.254 | 255.255.255.0 |
@@ -146,6 +146,5 @@ Potom môžeme exitnúť config commandom exit, a zobraziť si aktuálné ACL li
 
 Navrhovaná podniková sieť ponúka pevný základ pre bezpečnú a efektívnu prevádzku. Zároveň však otvára priestor na ďalšie zlepšenia, ktoré môžu zvýšiť jej funkčnosť a spoľahlivosť v dlhodobom horizonte.
 
-- **Monitoring:** Implementácia nástroja na monitorovanie siete na detekciu a prevenciu hrozieb.
-- **Redundancia:** Zavedenie záložných liniek a záložných DHCP serverov pre zvýšenie spoľahlivosti.
-- **Vylepšenie pre hostí:** Poskytnutie prístupu k vybraným lokálnym zdrojom, ako sú tlačiarne alebo prezentačné zariadenia, bez ohrozenia bezpečnosti.
+- **Monitorovanie:** Implementácia nástroja na monitorovanie siete na detekciu a prevenciu hrozieb.
+- **Vylepšenie pre hostí:** Poskytnutie prístupu k vybraným lokálnym zdrojom, ako sú tlačiarne a iné zariadenia, bez ohrozenia bezpečnosti.
