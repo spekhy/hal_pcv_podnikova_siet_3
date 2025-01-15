@@ -30,7 +30,7 @@ Výsledkom bude sieť nižšie.
 
 ### Vytvorenie VLAN
 
-Každá VLAN bola nakonfigurovaná tak, aby poskytovala izoláciu a špecifické IP adresné rozsahy. Tieto VLAN sú základom pre oddelenie siete a efektívne prideľovanie zdrojov.
+Každá VLAN bola nakonfigurovaná na špecifické IP adresy. Tieto VLAN-y sú základom pre oddelenie siete a efektívne prideľovanie zdrojov.
 
 ```plaintext
 enable
@@ -64,7 +64,7 @@ no shutdown
 
 ### Vytvorenie ACL (Access Control List)
 
-Pravidlá ACL definujú presné povolenia a obmedzenia prístupu medzi VLAN, čím zabezpečujú kontrolovaný tok dát. 
+Pravidlá ACL definujú presné povolenia a obmedzenia prístupu medzi VLAN, čím zabezpečujú kontrolovaný tok dátových packetov. 
 
 #### VLAN 10 - Zamestnanci
 
@@ -79,7 +79,7 @@ access-list 101 deny ip 192.168.10.0 0.0.0.255 any
 
 #### VLAN 20 - Hostia
 
-Hostia majú prístup výhradne k internetu, čím sa znižuje riziko neautorizovaného prístupu.
+Hostia majú prístup výhradne k internetu, nízke riziko neautorizovaného prístupu.
 
 ```plaintext
 access-list 102 deny ip 192.168.20.0 0.0.0.255 192.168.10.0 0.0.0.255
@@ -105,10 +105,6 @@ Potom môžeme exitnúť config commandom exit, a zobraziť si aktuálné ACL li
 
 ![image](https://github.com/spekhy/hal_pcv_podnikova_siet_3/blob/main/access-lists.png?raw=true)
 
-### Konfigurácia DHCP pre siete
-
-Router vo VLAN 50 je nakonfigurovaný ako DHCP server, čím sa zabezpečuje dynamické prideľovanie IP adries pre všetky zariadenia v sieti.
-
 ### Priradenie IP adries
 
 - **Server PT:** 192.168.50.2 (VLAN 50)
@@ -124,8 +120,8 @@ Router vo VLAN 50 je nakonfigurovaný ako DHCP server, čím sa zabezpečuje dyn
 
 ### Prehľad VLAN
 
-| VLAN ID | Názov         | IP Rozsah        | Použiteľné adresy       | Mask          |
-|---------|---------------|------------------|-------------------------|---------------|
+| VLAN    | Názov         | IP Rozsah       | Použiteľné adresy           | Mask          |
+|---------|---------------|-----------------|-----------------------------|---------------|
 | 10      | Zamestnanci   | 192.168.10.0/24 | 192.168.10.2-192.168.10.254 | 255.255.255.0 |
 | 20      | Hostia        | 192.168.20.0/24 | 192.168.20.2-192.168.20.254 | 255.255.255.0 |
 | 30      | Management    | 192.168.30.0/24 | 192.168.30.2-192.168.30.254 | 255.255.255.0 |
