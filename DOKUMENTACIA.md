@@ -11,7 +11,7 @@ Podniková sieť zabezpečuje efektívne a bezpečné pripojenie pre rôzne kate
 
 Tento návrh zaisťuje bezpečnosť a poskytuje jednoduchú správu siete, pričom každá kategória používateľov má presne definované práva.
 
-Cieľom bude spravť sieť nižšie.
+Cieľom bude sieť nižšie.
 
 ![image](https://github.com/spekhy/hal_pcv_podnikova_siet_3/blob/main/siet.png?raw=true)
 
