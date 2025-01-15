@@ -2,14 +2,14 @@
 
 ## Úvod
 
-Podniková sieť je navrhnutá tak, aby zabezpečovala efektívne a bezpečné pripojenie pre rôzne kategórie používateľov a zariadení. Sieť je rozdelená na segmenty (VLAN) podľa funkcií a úrovní prístupu, čím sa zaisťuje dôkladná izolácia medzi rôznymi skupinami používateľov. 
+Podniková sieť zabezpečuje efektívne a bezpečné pripojenie pre rôzne kategórie používateľov a zariadení. Sieť je rozdelená na segmenty pomocou VLAN podľa funkcií a úrovní prístupu, čím sa zaisťuje izolácia medzi rôznymi skupinami používateľov. 
 
-- **Zamestnanci** majú prístup k serverom, manažmentu a kamerám, čo im umožňuje efektívne plniť pracovné povinnosti.
-- **Hostia** majú obmedzený prístup iba k internetu, čím sa minimalizuje riziko narušenia bezpečnosti interných systémov.
-- **Manažment** má prístup k serverom a kamerám, aby mohli dohliadať na chod spoločnosti a monitorovať bezpečnostné zariadenia.
-- **Kamery** sú izolované, aby sa minimalizovalo riziko zneužitia alebo narušenia ich prevádzky, pričom záznamy sú bezpečne uložené na serveroch.
+- **Zamestnanci** majú prístup k serverom, manažmentu a kamerám.
+- **Hostia** majú obmedzený prístup iba k internetu, nie do interných systémov.
+- **Manažment** má prístup k serverom a kamerám, aby dohliadali na chod spoločnosti a bezpečnostné zariadenia.
+- **Kamery** sú izolované, aby sa minimalizovalo riziko zneužitia alebo narušenia ich funkčnosti.
 
-Tento návrh nielenže zaisťuje bezpečnosť, ale tiež poskytuje vysokú úroveň kontroly a jednoduchú správu siete, pričom každá kategória používateľov má presne definované prístupové práva.
+Tento návrh zaisťuje bezpečnosť a poskytuje jednoduchú správu siete, pričom každá kategória používateľov má presne definované práva.
 
 ---
 
